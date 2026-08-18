@@ -1,0 +1,12 @@
+
+#### 1. Создаем категорию (POST)
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+
+{
+  "name": "Transport",
+  "type": "EXPENSE"
+}
+
+#### 2. Получаем все категории (GET)
+GET http://localhost:8080/api/v1/categories

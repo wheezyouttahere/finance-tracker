@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <include file="db/changelog/changeset/001-create-categories-table.sql"/>
+    <include file="db/changelog/changeset/002-create-transactions-table.xml"/>
+    <include file="db/changelog/changeset/003-link-transaction-category.xml"/>
+    <include file="db/changelog/changeset/004-create-users-and-relations.sql"/>
+    <include file="db/changelog/changeset/005-add-telegram-chat-id.sql"/>
+
+</databaseChangeLog>
